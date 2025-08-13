@@ -1,5 +1,4 @@
 const passwordOutput = document.getElementById("passwordOutput")
-const copyButton = document.getElementById("copyButton")
 const generateButton = document.getElementById("generateButton")
 const includeUppercaseCheckbox = document.getElementById('includeUppercase');
 const includeLowercaseCheckbox = document.getElementById('includeLowercase');
@@ -51,4 +50,5 @@ generateButton.addEventListener("click", function() {
                 generatedPassword += possibleCharacters[randomIndex];
     }
     passwordOutput.value = generatedPassword;
+
 })
